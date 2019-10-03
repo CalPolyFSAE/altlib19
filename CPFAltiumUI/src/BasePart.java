@@ -82,14 +82,14 @@ public class BasePart {
         this.libraryRef = ((JTextArea)panel.libraryRef.getInput()).getText();
 
         this.libraryPath = ((JFileChooser)panel.libraryPath.getInput()).getSelectedFile().getAbsolutePath().contains("\\") ?
-                ((JFileChooser)panel.libraryPath.getInput()).getSelectedFile().getAbsolutePath().split("Altium-Library\\\\")[1].replace("\\","/") :
-                ((JFileChooser)panel.libraryPath.getInput()).getSelectedFile().getAbsolutePath().split("Altium-Library/")[1];
+                ((JFileChooser)panel.libraryPath.getInput()).getSelectedFile().getAbsolutePath().split("altlib19\\\\")[1].replace("\\","/") :
+                ((JFileChooser)panel.libraryPath.getInput()).getSelectedFile().getAbsolutePath().split("altlib19/")[1];
 
         this.footprintRef = ((JTextArea)panel.footprintRef.getInput()).getText();
 
         this.footprintPath = ((JFileChooser)panel.footprintPath.getInput()).getSelectedFile().getAbsolutePath().contains("\\") ?
-                ((JFileChooser)panel.footprintPath.getInput()).getSelectedFile().getAbsolutePath().split("Altium-Library\\\\")[1].replace("\\","/") :
-                ((JFileChooser)panel.footprintPath.getInput()).getSelectedFile().getAbsolutePath().split("Altium-Library/")[1];
+                ((JFileChooser)panel.footprintPath.getInput()).getSelectedFile().getAbsolutePath().split("altlib19\\\\")[1].replace("\\","/") :
+                ((JFileChooser)panel.footprintPath.getInput()).getSelectedFile().getAbsolutePath().split("altlib19/")[1];
         this.link = ((JTextArea)panel.link.getInput()).getText();
     }
 
