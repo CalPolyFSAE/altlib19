@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CPFAltiumUI:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf846f4a-0e84-4359-a155-c04b336b8a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPFAltiumUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CPFAltiumUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BasePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BasePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BjtListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BjtListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BjtListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BjtListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/Capacitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/Capacitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/ConnectorListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/ConnectorListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/ConnectorListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/ConnectorListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/DiodeListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/DiodeListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/DiodeListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/DiodeListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/FetListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/FetListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/FetListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/FetListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/FuseListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/FuseListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/FuseListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/FuseListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcInterfaceListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcInterfaceListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcInterfaceListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcInterfaceListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcMiscListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcMiscListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcMiscListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/IcMiscListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/InductorListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/InductorListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/InductorListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/InductorListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/PmicListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/PmicListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/PmicListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/PmicListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/RelayListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/RelayListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/RelayListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/RelayListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/ResistorListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/ResistorListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/ResistorListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/ResistorListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BjtListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BjtListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Capacitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Capacitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CapacitorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CapacitorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CapacitorListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CapacitorListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConnectorListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectorListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiodeListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiodeListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FetListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FetListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuseListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuseListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IcInterfaceListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IcInterfaceListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IcMiscListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IcMiscListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InductorListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InductorListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PmicListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PmicListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RelayListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelayListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResistorListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResistorListPanel.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1PAZzCECyjudgPd3uZqU1V0aofY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="CPFAltiumUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf846f4a-0e84-4359-a155-c04b336b8a30" name="Default Changelist" comment="" />
+      <created>1565319121371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565319121371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
