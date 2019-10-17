@@ -1,5 +1,4 @@
-import com.sun.xml.internal.messaging.saaj.soap.JpegDataContentHandler;
-import org.omg.CORBA.WStringSeqHelper;
+
 
 import javax.swing.*;
 import javax.swing.event.EventListenerList;
@@ -42,6 +41,5 @@ public abstract class BaseListPanel extends JPanel{
 
 
     protected abstract void setupAddButtonListener();
-    protected abstract String[] getColumns();
-    protected abstract String[][] getData();
+
 }

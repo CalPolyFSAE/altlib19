@@ -8,7 +8,7 @@ public class BjtListPanel extends BaseListPanel {
         super("BJT");
     }
 
-    protected void setupAddButtonListener(){
+    protected void setupAddButtonListener() {
         addBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -17,15 +17,5 @@ public class BjtListPanel extends BaseListPanel {
                 closeAddEditFrameListener();
             }
         });
-    }
-
-    protected String[] getColumns(){
-        String [] columns={"name","age"};
-        return columns;
-    }
-
-    protected String[][] getData(){
-        String[][] data = {{"akash","20"},{"pankaj","24"},{"pankaj","24"},{"pankaj","24"},{"pankaj","24"}};
-        return data;
     }
 }

@@ -116,6 +116,11 @@ public class DaoManager {
         return new CapacitorDao(this.connection);
     }
 
+    public CrystalDao getCrystalDao(){
+        getConnection();
+        return new CrystalDao(this.connection);
+    }
+
     public ResistorDao getResistorDao(){
         getConnection();
         return new ResistorDao(this.connection);

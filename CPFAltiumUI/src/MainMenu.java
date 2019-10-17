@@ -25,10 +25,10 @@ public class MainMenu extends JFrame{
         mainPanel.setLayout(cardLayout);
 
         mainPanel.add(new LoginPanel(), "LoginPanel");
-        mainPanel.add(new BjtListPanel(), "BjtListPanel");
+        //mainPanel.add(new BjtListPanel(), "BjtListPanel");
         mainPanel.add(new CapacitorListPanel(), "CapacitorListPanel");
-        mainPanel.add(new ResistorListPanel(), "ResistorListPanel");
-        mainPanel.add(new DiodeListPanel(), "DiodeListPanel");
+        //mainPanel.add(new ResistorListPanel(), "ResistorListPanel");
+        /*mainPanel.add(new DiodeListPanel(), "DiodeListPanel");
         mainPanel.add(new FetListPanel(), "FetListPanel");
         mainPanel.add(new PmicListPanel(), "PmicListPanel");
         mainPanel.add(new FuseListPanel(), "FuseListPanel");
@@ -37,7 +37,8 @@ public class MainMenu extends JFrame{
         mainPanel.add(new IcInterfaceListPanel(), "IcInterfaceListPanel");
         mainPanel.add(new InductorListPanel(), "InductorListPanel");
         mainPanel.add(new RelayListPanel(), "RelayListPanel");
-
+*/
+        mainPanel.add(new CrystalListPanel(), "CrystalListPanel");
         cardLayout.show(mainPanel,"LoginPage");
         this.add(mainPanel);
 
@@ -67,6 +68,7 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "ConnectorListPanel");
                         break;
                     case Crystals:
+                        cardLayout.show(mainPanel, "CrystalListPanel");
                         break;
                     case Diodes:
                         cardLayout.show(mainPanel, "DiodeListPanel");
