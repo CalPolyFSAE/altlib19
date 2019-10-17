@@ -29,8 +29,8 @@ public class FetDao {
         ps.setString(6, fet.getRdson());
         ps.setFloat(7, fet.getVt());
         ps.setFloat(8, fet.getVgsmax());
-        ps.setString(10, fet.getPackageString());
-        ps.setFloat(9, fet.getQuantity());
+        ps.setString(9, fet.getPackageString());
+        ps.setFloat(10, fet.getQuantity());
         ps.setString(11, fet.getDescription());
         ps.setString(12, fet.getLibraryRef());
         ps.setString(13, fet.getLibraryPath());
