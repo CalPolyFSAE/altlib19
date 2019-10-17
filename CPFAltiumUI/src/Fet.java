@@ -49,10 +49,10 @@ public class Fet extends BasePart{
         this.type = ((JComboBox)panel.type.getInput()).getSelectedItem().toString();
         this.vdsmax = Float.parseFloat(((JTextArea)panel.vdsmax.getInput()).getText());
         this.numcircuits = Integer.parseInt(((JTextArea)panel.numcircuits.getInput()).getText());
-        this.current = Integer.parseInt(((JTextArea)panel.current.getInput()).getText());
+        this.current = Float.parseFloat(((JTextArea)panel.current.getInput()).getText());
         this.rdson = ((JTextArea)panel.rdson.getInput()).getText();
-        this.vt = Integer.parseInt(((JTextArea)panel.vt.getInput()).getText());
-        this.vgsmax = Integer.parseInt(((JTextArea)panel.vgsmax.getInput()).getText());
+        this.vt = Float.parseFloat(((JTextArea)panel.vt.getInput()).getText());
+        this.vgsmax = Float.parseFloat(((JTextArea)panel.vgsmax.getInput()).getText());
         this.packageString = ((JTextArea)panel.packages.getInput()).getText();
     }
 
