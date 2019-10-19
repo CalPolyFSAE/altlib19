@@ -84,30 +84,6 @@ public class CrystalDao {
         return columns.toArray(new String[columns.size()]);
     }
 
-    /*public Capacitor[] getCapacitors() {
-        String[][] capacitors = null;
-        PreparedStatement ps = null;
-        ResultSet resultSet = null;
-        try {
-            ps = this.connection.prepareStatement("Select * FROM capacitors");
-            resultSet = ps.executeQuery();
-            //capacitors = unpackColumns(resultSet);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                resultSet.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            try {
-                ps.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        //return capacitors;
-    }*/
 
 
 
