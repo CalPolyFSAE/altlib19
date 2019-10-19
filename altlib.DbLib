@@ -19,16 +19,13 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=c
-LastFocusedTable=icinterfaces
+LastFocusedTable=pmic
 [Table1]
 SchemaName=
 TableName=bjts
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=82|Library Ref0=205|Library Path0=285|Footprint Ref0=92|Footprint Path0=179|id0=33|name0=118|type0=59|power0=56|beta0=46|ic0=107|vcemax0=59|package0=66|quantity0=66|link0=1415|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table2]
 SchemaName=
 TableName=buttons_switches
@@ -77,21 +74,24 @@ TableName=icinterfaces
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=233|Library Ref0=211|Library Path0=289|Footprint Ref0=92|Footprint Path0=151|id0=33|Name0=75|type0=140|Vcc0=40|package0=66|quantity0=66|link0=702|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table10]
 SchemaName=
 TableName=icmicrocontrollers
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=132|Library Ref0=98|Library Path0=115|Footprint Ref0=92|Footprint Path0=137|id0=33|Name0=98|Vcc0=42|package0=66|quantity0=66|link0=42|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table11]
 SchemaName=
 TableName=icmisc
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=275|Library Ref0=203|Library Path0=282|Footprint Ref0=192|Footprint Path0=284|id0=33|name0=158|vcc0=151|voltageinmax0=91|package0=67|quantity0=66|link0=451|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table12]
 SchemaName=
 TableName=inductors
@@ -116,6 +116,9 @@ TableName=pmic
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=id0=33|Description0=241|Library Ref0=248|Library Path0=330|Footprint Ref0=133|Footprint Path0=226|name0=119|imax0=101|package0=66|quantity0=66|link0=1461|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table16]
 SchemaName=
 TableName=relays
