@@ -16,7 +16,6 @@ public abstract class BaseAddEditPanel extends JPanel  {
     protected JLabel title;
 
     protected LabelAndInput name = new LabelAndInput(new JLabel("Name*:"), new JTextArea(1, 15));
-
     protected LabelAndInput quantity = new LabelAndInput(new JLabel("Quantity*:"), new JTextArea(1, 15));
     protected LabelAndInput description = new LabelAndInput(new JLabel("Desciption*:"), new JTextArea(1, 15));
     protected LabelAndInput libraryRef = new LabelAndInput(new JLabel("Library Ref*:"), new JTextArea(1, 15));

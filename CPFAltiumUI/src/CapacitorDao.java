@@ -88,14 +88,14 @@ public class CapacitorDao {
         return columns.toArray(new String[columns.size()]);
     }
 
-    /*public Capacitor[] getCapacitors() {
-        String[][] capacitors = null;
+    public Capacitor[] getCapacitors() {
+        Capacitor[] capacitors = null;
         PreparedStatement ps = null;
         ResultSet resultSet = null;
         try {
             ps = this.connection.prepareStatement("Select * FROM capacitors");
             resultSet = ps.executeQuery();
-            //capacitors = unpackColumns(resultSet);
+            capacitors = unpackCapacitors(resultSet);
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -110,13 +110,14 @@ public class CapacitorDao {
                 e.printStackTrace();
             }
         }
-        //return capacitors;
-    }*/
+        return capacitors;
+    }
 
     private Capacitor[] unpackCapacitors(ResultSet rs) throws SQLException{
         ArrayList<Capacitor> capacitors = new ArrayList<Capacitor>();
         while(rs.next()) {
-            Capacitor capacitor = new Capacitor(rs){};
+            Capacitor capacitor = new Capacitor(rs);
+            capacitors.add(capacitor);
         }
         return capacitors.toArray(new Capacitor[capacitors.size()]);
     }

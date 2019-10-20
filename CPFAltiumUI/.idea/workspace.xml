@@ -8,11 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="bf846f4a-0e84-4359-a155-c04b336b8a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/META-INF/CPFAltiumUI.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseAddEditPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseAddEditPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseAddEditPanel$LabelAndInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseAddEditPanel$LabelAndInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseAddEditPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseAddEditPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/Capacitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/Capacitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorDao$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/CapacitorListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseAddEditPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseAddEditPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Capacitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Capacitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CapacitorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CapacitorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CapacitorListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CapacitorListPanel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,5 +96,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CapacitorDao.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

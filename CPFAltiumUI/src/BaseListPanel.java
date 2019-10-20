@@ -42,4 +42,5 @@ public abstract class BaseListPanel extends JPanel{
 
 
     protected abstract void setupAddButtonListener();
+
 }

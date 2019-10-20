@@ -48,15 +48,24 @@ public class Capacitor extends BasePart{
     public Capacitor(ResultSet rs){
         super(rs);
         try {
-            this.capacitance = rs.getString("capacitence");
+            this.capacitance = rs.getString("capacitance");
             this.voltage = rs.getFloat("voltage");
             this.dielectric = rs.getString("dielectric");
-            this.percentTolerance = rs.getFloat("percent tolerence");
-            this.esr = rs.getString("capacitence");
-            this.packageString = rs.getString("capacitence");
+            this.percentTolerance = rs.getFloat("percent tolerance");
+            this.esr = rs.getString("ESR");
+            this.packageString = rs.getString("package");
         }
         catch (SQLException e ){
             e.printStackTrace();
         }
+    }
+
+    public static String[][] toStringList(Capacitor[] capList){
+        String[][] stringList = new String[capList.length][];
+
+        for(int i = 0; i < capList.length; i++){
+            stringList[i] = new String[]{ capList[i].name, capList[i].capacitance};
+        }
+        return stringList;
     }
 }
