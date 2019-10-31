@@ -38,6 +38,7 @@ public class MainMenu extends JFrame{
         mainPanel.add(new InductorListPanel(), "InductorListPanel");
         mainPanel.add(new RelayListPanel(), "RelayListPanel");
         mainPanel.add(new CrystalListPanel(), "CrystalListPanel");
+        mainPanel.add(new ButtonsSwitchesListPanel(),  "ButtonsSwitchesListPanel");
 
 
         cardLayout.show(mainPanel,"LoginPage");
@@ -61,6 +62,8 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "BjtListPanel");
                         break;
                     case ButtonsSwitches:
+                        cardLayout.show(mainPanel, "ButtonsSwitchesListPanel");
+
                         break;
                     case Capacitors:
                         cardLayout.show(mainPanel, "CapacitorListPanel");
