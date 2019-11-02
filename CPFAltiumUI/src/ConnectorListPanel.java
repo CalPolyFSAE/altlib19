@@ -17,13 +17,4 @@ public class ConnectorListPanel extends BaseListPanel {
         });
     }
 
-    protected String[] getColumns(){
-        String [] columns={"name","age"};
-        return columns;
-    }
-
-    protected String[][] getData(){
-        String[][] data = {{"akash","20"},{"pankaj","24"},{"pankaj","24"},{"pankaj","24"},{"pankaj","24"}};
-        return data;
-    }
 }

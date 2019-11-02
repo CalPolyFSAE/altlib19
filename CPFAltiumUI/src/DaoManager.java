@@ -121,6 +121,11 @@ public class DaoManager {
         return new ResistorDao(this.connection);
     }
 
+    public CrystalDao getCrystalDao(){
+        getConnection();
+        return new CrystalDao(this.connection);
+    }
+
     public DiodeDao getDiodeDao(){
         getConnection();
         return new DiodeDao(this.connection);

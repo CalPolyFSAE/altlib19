@@ -20,13 +20,4 @@ public class CapacitorListPanel extends BaseListPanel {
         });
     }
 
-    protected String[] getColumns(){
-        CapacitorDao capacitorDao = new DaoManager().getCapacitorDao();
-        return capacitorDao.getColumns();
-    }
-
-    protected String[][] getData(){
-        String[][] data = {{"akash","20"},{"pankaj","24"},{"pankaj","24"},{"pankaj","24"},{"pankaj","24"}};
-        return data;
-    }
 }

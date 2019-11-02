@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf846f4a-0e84-4359-a155-c04b336b8a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPFAltiumUI/BaseListPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CPFAltiumUI/META-INF/CPFAltiumUI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseListPanel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -55,6 +50,8 @@
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="CPFAltiumUI" />
