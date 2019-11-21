@@ -164,6 +164,11 @@ public class DaoManager {
         return new InductorDao(this.connection);
     }
 
+    public ButtonsSwitchesDao getButtonsSwitchesDao() {
+        getConnection();
+        return new ButtonsSwitchesDao(this.connection);
+    }
+
     public RelayDao getRelayDao(){
         getConnection();
         return new RelayDao(this.connection);
