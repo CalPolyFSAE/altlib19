@@ -39,6 +39,10 @@ public class MainMenu extends JFrame{
         mainPanel.add(new RelayListPanel(), "RelayListPanel");
         mainPanel.add(new CrystalListPanel(), "CrystalListPanel");
         mainPanel.add(new ButtonsSwitchesListPanel(),  "ButtonsSwitchesListPanel");
+        mainPanel.add(new IcMicrocontrollersListPanel(),  "IcMicrocontrollersListPanel");
+        mainPanel.add(new OpAmpsListPanel(),  "OpAmpsListPanel");
+
+
 
 
         cardLayout.show(mainPanel,"LoginPage");
@@ -87,6 +91,7 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "IcInterfaceListPanel");
                         break;
                     case IcMicrocontollers:
+                        cardLayout.show(mainPanel, "IcMicrocontrollersListPanel");
                         break;
                     case IcMisc:
                         cardLayout.show(mainPanel, "IcMiscListPanel");
@@ -95,6 +100,7 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "InductorListPanel");
                         break;
                     case OpAmps:
+                        cardLayout.show(mainPanel, "OpAmpsListPanel");
                         break;
                     case Pmic:
                         cardLayout.show(mainPanel, "PmicListPanel");

@@ -41,7 +41,7 @@ public class TopMenu extends JMenuBar {
         Transformers,
 
         Sellers,
-        Manfacturers
+        icMicroControllers, Manfacturers
     }
 
     public HashMap<buttonTypes, String> buttonTypesDict = new HashMap<buttonTypes, String>(){{

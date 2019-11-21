@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class CrystalDao {
+public class IcMicrocontrollersDao {
     private Connection connection;
 
-    public CrystalDao(Connection connection){
+    public IcMicrocontrollersDao(Connection connection){
         this.connection = connection;
     }
 
@@ -18,23 +18,23 @@ public class CrystalDao {
         return null;
     }
 
-    public int insert(Crystal crystal){;
+    public int insert(IcMicrocontrollers icmicrocontrollers){;
         int ret = -1;
         PreparedStatement ps = null;
         try {
             ps = this.connection.prepareStatement(
-                    "INSERT INTO crystals (`id`,`name`, `frequency`, `package`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `link`,  `createdby`, `createddate`, `updatedby`, `updateddate`)"+
+                    "INSERT INTO icmicrocontrollers (`id`,`name`, `Vcc`, `package`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `link`,  `createdby`, `createddate`, `updatedby`, `updateddate`)"+
                             " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW());");
-            ps.setString(1, crystal.getName());
-            ps.setFloat(2, crystal.getFrequency());
-            ps.setString(3, crystal.getPackages());
-            ps.setInt(4, crystal.getQuantity());
-            ps.setString(5, crystal.getDescription());
-            ps.setString(6, crystal.getLibraryRef());
-            ps.setString(7, crystal.getLibraryPath());
-            ps.setString(8, crystal.getFootprintRef());
-            ps.setString(9, crystal.getFootprintPath());
-            ps.setString(10, crystal.getLink());
+            ps.setString(1, icmicrocontrollers.getName());
+            ps.setString(2, icmicrocontrollers.getVcc());
+            ps.setString(3, icmicrocontrollers.getPackages());
+            ps.setInt(4, icmicrocontrollers.getQuantity());
+            ps.setString(5, icmicrocontrollers.getDescription());
+            ps.setString(6, icmicrocontrollers.getLibraryRef());
+            ps.setString(7, icmicrocontrollers.getLibraryPath());
+            ps.setString(8, icmicrocontrollers.getFootprintRef());
+            ps.setString(9, icmicrocontrollers.getFootprintPath());
+            ps.setString(10, icmicrocontrollers.getLink());
             ps.setString(11, DefaultData.name);
             ps.setString(12, DefaultData.name);
 
@@ -56,7 +56,7 @@ public class CrystalDao {
         PreparedStatement ps = null;
         ResultSet resultSet = null;
         try {
-            ps = this.connection.prepareStatement("SHOW COLUMNS FROM crystal");
+            ps = this.connection.prepareStatement("SHOW COLUMNS FROM icmicrocontrollers");
             resultSet = ps.executeQuery();
             rooms = unpackColumns(resultSet);
         } catch (SQLException e) {
