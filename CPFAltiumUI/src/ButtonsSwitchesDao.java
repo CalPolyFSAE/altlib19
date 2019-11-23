@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class CrystalDao {
+public class ButtonsSwitchesDao {
     private Connection connection;
 
-    public CrystalDao(Connection connection){
+    public ButtonsSwitchesDao(Connection connection){
         this.connection = connection;
     }
 
@@ -18,25 +18,29 @@ public class CrystalDao {
         return null;
     }
 
-    public int insert(Crystal crystal){;
+    public int insert(ButtonsSwitches buttonsSwitches){;
         int ret = -1;
         PreparedStatement ps = null;
         try {
             ps = this.connection.prepareStatement(
-                    "INSERT INTO crystals (`id`,`name`, `frequency`, `package`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `link`,  `createdby`, `createddate`, `updatedby`, `updateddate`)"+
-                            " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW());");
-            ps.setString(1, crystal.getName());
-            ps.setFloat(2, crystal.getFrequency());
-            ps.setString(3, crystal.getPackages());
-            ps.setInt(4, crystal.getQuantity());
-            ps.setString(5, crystal.getDescription());
-            ps.setString(6, crystal.getLibraryRef());
-            ps.setString(7, crystal.getLibraryPath());
-            ps.setString(8, crystal.getFootprintRef());
-            ps.setString(9, crystal.getFootprintPath());
-            ps.setString(10, crystal.getLink());
-            ps.setString(11, DefaultData.name);
-            ps.setString(12, DefaultData.name);
+                    "INSERT INTO buttons_switches (`id`,`name`, `resistance`, `voltage`, `numcontacts`, `numrows`, `pitch`, `package`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `link`,  `createdby`, `createddate`, `updatedby`, `updateddate`)"+
+                            " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW());");
+            ps.setString(1, buttonsSwitches.getName());
+            ps.setFloat(2, buttonsSwitches.getResistance());
+            ps.setFloat(3, buttonsSwitches.getVoltage());
+            ps.setInt(4, buttonsSwitches.getNumContacts());
+            ps.setInt(5, buttonsSwitches.getNumRows());
+            ps.setFloat(6, buttonsSwitches.getPitch());
+            ps.setString(7, buttonsSwitches.getPackages());
+            ps.setInt(8, buttonsSwitches.getQuantity());
+            ps.setString(9, buttonsSwitches.getDescription());
+            ps.setString(10, buttonsSwitches.getLibraryRef());
+            ps.setString(11, buttonsSwitches.getLibraryPath());
+            ps.setString(12, buttonsSwitches.getFootprintRef());
+            ps.setString(13, buttonsSwitches.getFootprintPath());
+            ps.setString(14, buttonsSwitches.getLink());
+            ps.setString(15, DefaultData.name);
+            ps.setString(16, DefaultData.name);
 
             ret = ps.executeUpdate();
         } catch (SQLException e) {
@@ -56,7 +60,7 @@ public class CrystalDao {
         PreparedStatement ps = null;
         ResultSet resultSet = null;
         try {
-            ps = this.connection.prepareStatement("SHOW COLUMNS FROM crystal");
+            ps = this.connection.prepareStatement("SHOW COLUMNS FROM buttonsSwitches");
             resultSet = ps.executeQuery();
             rooms = unpackColumns(resultSet);
         } catch (SQLException e) {

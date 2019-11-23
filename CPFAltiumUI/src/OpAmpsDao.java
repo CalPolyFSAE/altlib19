@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class CrystalDao {
+public class OpAmpsDao {
     private Connection connection;
 
-    public CrystalDao(Connection connection){
+    public OpAmpsDao(Connection connection){
         this.connection = connection;
     }
 
@@ -18,25 +18,31 @@ public class CrystalDao {
         return null;
     }
 
-    public int insert(Crystal crystal){;
+    public int insert(OpAmps opamps){;
         int ret = -1;
         PreparedStatement ps = null;
         try {
             ps = this.connection.prepareStatement(
-                    "INSERT INTO crystals (`id`,`name`, `frequency`, `package`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `link`,  `createdby`, `createddate`, `updatedby`, `updateddate`)"+
-                            " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW());");
-            ps.setString(1, crystal.getName());
-            ps.setFloat(2, crystal.getFrequency());
-            ps.setString(3, crystal.getPackages());
-            ps.setInt(4, crystal.getQuantity());
-            ps.setString(5, crystal.getDescription());
-            ps.setString(6, crystal.getLibraryRef());
-            ps.setString(7, crystal.getLibraryPath());
-            ps.setString(8, crystal.getFootprintRef());
-            ps.setString(9, crystal.getFootprintPath());
-            ps.setString(10, crystal.getLink());
-            ps.setString(11, DefaultData.name);
-            ps.setString(12, DefaultData.name);
+                    "INSERT INTO opamps (`id`,`name`, `type`, `num_circuits`, `voltage`, `slewrate`, `gbw`, `currentoutput`, `voltagelow`, `voltagehigh`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `link`,  `createdby`, `createddate`, `updatedby`, `updateddate`)"+
+                            " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW());");
+            ps.setString(1, opamps.getName());
+            ps.setString(2, opamps.getType());
+            ps.setInt(3, opamps.getNum_circuits());
+            ps.setFloat(4, opamps.getVoltage());
+            ps.setFloat(5, opamps.getSlewrate());
+            ps.setFloat(6, opamps.getGbw());
+            ps.setFloat(7, opamps.getCurrentoutput());
+            ps.setFloat(8, opamps.getVoltagelow());
+            ps.setFloat(9, opamps.getVoltagehigh());
+            ps.setInt(10, opamps.getQuantity());
+            ps.setString(11, opamps.getDescription());
+            ps.setString(12, opamps.getLibraryRef());
+            ps.setString(13, opamps.getLibraryPath());
+            ps.setString(14, opamps.getFootprintRef());
+            ps.setString(15, opamps.getFootprintPath());
+            ps.setString(16, opamps.getLink());
+            ps.setString(17, DefaultData.name);
+            ps.setString(18, DefaultData.name);
 
             ret = ps.executeUpdate();
         } catch (SQLException e) {
@@ -56,7 +62,7 @@ public class CrystalDao {
         PreparedStatement ps = null;
         ResultSet resultSet = null;
         try {
-            ps = this.connection.prepareStatement("SHOW COLUMNS FROM crystal");
+            ps = this.connection.prepareStatement("SHOW COLUMNS FROM opamps");
             resultSet = ps.executeQuery();
             rooms = unpackColumns(resultSet);
         } catch (SQLException e) {
