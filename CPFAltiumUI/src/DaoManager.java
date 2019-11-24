@@ -169,6 +169,16 @@ public class DaoManager {
         return new ButtonsSwitchesDao(this.connection);
     }
 
+    public IcMicrocontrollersDao getIcMicrocontrollersDao() {
+        getConnection();
+        return new IcMicrocontrollersDao(this.connection);
+    }
+
+    public OpAmpsDao getOpAmpsDao() {
+        getConnection();
+        return new OpAmpsDao(this.connection);
+    }
+
     public RelayDao getRelayDao(){
         getConnection();
         return new RelayDao(this.connection);
