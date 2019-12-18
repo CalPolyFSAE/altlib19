@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Password=CalPolySpiders!;Persist Security In
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=c
-LastFocusedTable=pmic
+LastFocusedTable=resistors
 [Table1]
 SchemaName=
 TableName=bjts
@@ -80,18 +80,12 @@ TableName=icmicrocontrollers
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=132|Library Ref0=98|Library Path0=115|Footprint Ref0=92|Footprint Path0=137|id0=33|Name0=98|Vcc0=42|package0=66|quantity0=66|link0=42|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table11]
 SchemaName=
 TableName=icmisc
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=275|Library Ref0=203|Library Path0=282|Footprint Ref0=192|Footprint Path0=284|id0=33|name0=158|vcc0=151|voltageinmax0=91|package0=67|quantity0=66|link0=451|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table12]
 SchemaName=
 TableName=inductors
@@ -116,9 +110,6 @@ TableName=pmic
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=id0=33|Description0=241|Library Ref0=248|Library Path0=330|Footprint Ref0=133|Footprint Path0=226|name0=119|imax0=101|package0=66|quantity0=66|link0=1461|createdby0=73|createddate0=84|updatedby0=79|updateddate0=90
 [Table16]
 SchemaName=
 TableName=relays
@@ -131,6 +122,9 @@ TableName=resistors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=id0=62|resistance0=139|Library Ref0=148|Library Path0=239|Footprint Ref0=171|Footprint Path0=276|name0=144|percent tolerance0=214|power0=106|package0=125|quantity0=122|description0=151|link0=77|createdby0=141|createddate0=160|updatedby0=149|updateddate0=168
 [Table18]
 SchemaName=
 TableName=sellers
